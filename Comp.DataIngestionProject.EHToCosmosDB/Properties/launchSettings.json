@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Comp.DataIngestionProject.EHToCosmosDB": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7213",
+      "launchBrowser": false
+    }
+  }
+}

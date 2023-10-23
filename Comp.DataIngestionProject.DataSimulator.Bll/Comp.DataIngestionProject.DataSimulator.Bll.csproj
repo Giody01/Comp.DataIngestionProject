@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.9.2" />
+    <PackageReference Include="LibreHardwareMonitorLib" Version="0.9.2" />
+    <PackageReference Include="Microsoft.Azure.Devices.Client" Version="1.42.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Comp.DataIngestionProject.DataSimulator.DTO\Comp.DataIngestionProject.DataSimulator.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

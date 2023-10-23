@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Comp.DataIngestionProject.DataSimulator.Bll\Comp.DataIngestionProject.DataSimulator.Bll.csproj" />
+    <ProjectReference Include="..\Comp.DataIngestionProject.DTO\Comp.DataIngestionProject.DTO.csproj" />
+    <ProjectReference Include="..\Comp.DataIngestionProject.EHToBlobContainer.Bll\Comp.DataIngestionProject.EHToBlobContainer.Bll.csproj" />
+    <ProjectReference Include="..\Comp.DataIngestionProject.EHToCosmosDB.Bll\Comp.DataIngestionProject.EHToCosmosDB.Bll.csproj" />
+    <ProjectReference Include="..\Comp.DataIngestionProject.EHToSQL.Bll\Comp.DataIngestionProject.EHToSQL.Bll.csproj" />
+  </ItemGroup>
+
+</Project>

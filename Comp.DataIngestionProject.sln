@@ -3,7 +3,78 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comp.DataIngestionProject.DataSimulator", "Comp.DataIngestionProject.DataSimulator\Comp.DataIngestionProject.DataSimulator.csproj", "{BB0CE5C8-6C9F-4ECE-9D0B-9E3AF067536E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F06F20F-E0A0-4FA7-A899-34A63EB49CDE}"
+	ProjectSection(SolutionItems) = preProject
+		appsettings.json = appsettings.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comp.DataIngestionProject.DataSimulator.Bll", "Comp.DataIngestionProject.DataSimulator.Bll\Comp.DataIngestionProject.DataSimulator.Bll.csproj", "{A5BE8967-FE21-4484-ADAE-3B9BCD03D464}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comp.DataIngestionProject.DataSimulator.DTO", "Comp.DataIngestionProject.DataSimulator.DTO\Comp.DataIngestionProject.DataSimulator.DTO.csproj", "{53066E18-9A59-496E-829C-904E603F335D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.DataIngestionProject.IoTHubtToEH", "Comp.DataIngestionProject.IoTHubtToEH\Comp.DataIngestionProject.IoTHubtToEH.csproj", "{030597C5-9288-409E-9740-8893914CC565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.DataIngestionProject.EHToCosmosDB", "Comp.DataIngestionProject.EHToCosmosDB\Comp.DataIngestionProject.EHToCosmosDB.csproj", "{828722FB-8C11-4E22-A00E-855F6C77B96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.DataIngestionProject.EHToBlobContainer.Bll", "Comp.DataIngestionProject.EHToBlobContainer.Bll\Comp.DataIngestionProject.EHToBlobContainer.Bll.csproj", "{499FAC10-143F-4499-B32A-36733EA0129D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.DataIngestionProject.EHToCosmosDB.Bll", "Comp.DataIngestionProject.EHToCosmosDB.Bll\Comp.DataIngestionProject.EHToCosmosDB.Bll.csproj", "{88414A87-BAA0-4A0A-925C-7CA4D6F9AE87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.DataIngestionProject.EHToSQL.Bll", "Comp.DataIngestionProject.EHToSQL.Bll\Comp.DataIngestionProject.EHToSQL.Bll.csproj", "{CCFAF5A8-B6CB-4896-A16C-D00CA0E7373F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.DataIngestionProject.DTO", "Comp.DataIngestionProject.DTO\Comp.DataIngestionProject.DTO.csproj", "{A9E5680F-FBD8-4837-BA96-56504304D097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp.ConsoleApp.DataIngestionProject.TestWriting", "Comp.ConsoleApp.DataIngestionProject.TestWriting\Comp.ConsoleApp.DataIngestionProject.TestWriting.csproj", "{6635DED0-E49D-4F95-9197-120C2F079530}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB0CE5C8-6C9F-4ECE-9D0B-9E3AF067536E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0CE5C8-6C9F-4ECE-9D0B-9E3AF067536E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0CE5C8-6C9F-4ECE-9D0B-9E3AF067536E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0CE5C8-6C9F-4ECE-9D0B-9E3AF067536E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BE8967-FE21-4484-ADAE-3B9BCD03D464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BE8967-FE21-4484-ADAE-3B9BCD03D464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BE8967-FE21-4484-ADAE-3B9BCD03D464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BE8967-FE21-4484-ADAE-3B9BCD03D464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53066E18-9A59-496E-829C-904E603F335D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53066E18-9A59-496E-829C-904E603F335D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53066E18-9A59-496E-829C-904E603F335D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53066E18-9A59-496E-829C-904E603F335D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030597C5-9288-409E-9740-8893914CC565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030597C5-9288-409E-9740-8893914CC565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030597C5-9288-409E-9740-8893914CC565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030597C5-9288-409E-9740-8893914CC565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828722FB-8C11-4E22-A00E-855F6C77B96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828722FB-8C11-4E22-A00E-855F6C77B96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828722FB-8C11-4E22-A00E-855F6C77B96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828722FB-8C11-4E22-A00E-855F6C77B96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499FAC10-143F-4499-B32A-36733EA0129D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499FAC10-143F-4499-B32A-36733EA0129D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499FAC10-143F-4499-B32A-36733EA0129D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499FAC10-143F-4499-B32A-36733EA0129D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88414A87-BAA0-4A0A-925C-7CA4D6F9AE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88414A87-BAA0-4A0A-925C-7CA4D6F9AE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88414A87-BAA0-4A0A-925C-7CA4D6F9AE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88414A87-BAA0-4A0A-925C-7CA4D6F9AE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFAF5A8-B6CB-4896-A16C-D00CA0E7373F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFAF5A8-B6CB-4896-A16C-D00CA0E7373F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFAF5A8-B6CB-4896-A16C-D00CA0E7373F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFAF5A8-B6CB-4896-A16C-D00CA0E7373F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E5680F-FBD8-4837-BA96-56504304D097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E5680F-FBD8-4837-BA96-56504304D097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E5680F-FBD8-4837-BA96-56504304D097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E5680F-FBD8-4837-BA96-56504304D097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6635DED0-E49D-4F95-9197-120C2F079530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6635DED0-E49D-4F95-9197-120C2F079530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6635DED0-E49D-4F95-9197-120C2F079530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6635DED0-E49D-4F95-9197-120C2F079530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
